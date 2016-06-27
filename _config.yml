@@ -11,10 +11,9 @@ theme:
 
   # Header and footer text
   header_text: >
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-     <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
+     <h3>Hallo, ik ben Maarten.</h3>
   header_text_feature_image:
+#  header_text_feature_image: img/2016-06-27-test.jpg
   footer_text: >
    Aangedreven door <a href="http://jekyllrb.com">Jekyll</a> met <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
 
