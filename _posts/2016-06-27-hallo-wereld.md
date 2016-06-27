@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Jekyll test
+title: Hallo wereld
 feature-img: img/2016-06-27-test.jpg
 date: 2016-06-27T12:00:00.000Z
 published: true
 ---
-Test 1, 2, 3... TEST!
+Hallo wereld, hallo Den Haag!
