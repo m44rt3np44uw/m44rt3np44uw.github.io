@@ -1,14 +1,13 @@
 # SITE CONFIGURATION
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://example.com" # the base hostname & protocol for your site
+url: "https://m44rt3np44uw.github.io/" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: Type Theme
-  avatar: avatar.png
-  gravatar: # Email MD5 hash
-  description: "A website with blog posts and pages" # used by search engines
+  title: Maarten's blog
+  gravatar: c32c1a3574c36662aee8a65da32ca8ee
+  description: "Blog van Maarten Paauw" # used by search engines
 
   # Header and footer text
   header_text: >
@@ -17,49 +16,49 @@ theme:
      <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
   header_text_feature_image:
   footer_text: >
-   Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
+   Aangedreven door <a href="http://jekyllrb.com">Jekyll</a> met <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
 
   # Icons
   rss: false
-  email_address: # Full email address, e.g. "sam@example.com"
+  email_address: maartenpaauw@gmail.com # Full email address, e.g. "sam@example.com"
   behance:
-  bitbucket:
+  bitbucket: m44rt3np44uw
   dribbble:
   facebook:
   flickr:
-  github: "rohanchandra/type-theme"
+  github: m44rt3np44uw
   google_plus:
   instagram:
-  linkedin:  # Full URL
+  linkedin: https://nl.linkedin.com/in/m44rt3np44uw # Full URL
   pinterest:
   reddit:
   soundcloud:
-  stack_exchange:  # Full URL
+  stack_exchange: http://stackexchange.com/users/1794576/m44rt3np44uw # Full URL
   steam:
   tumblr:
-  twitter: "twitter"
+  twitter:
   wordpress:
   youtube:
 
   # Scripts
-  google_analytics: # Tracking ID, e.g. "UA-000000-01"
-  disqus_shortname:
+  google_analytics: UA-40230993-7 # Tracking ID, e.g. "UA-000000-01"
+  disqus_shortname: maartenpaauw
   katex: true # Enable if using math markup
 
   # Localization strings
-  str_follow_on: "Follow on"
-  str_rss_follow: "Follow RSS feed"
-  str_email: "Email"
-  str_next: "Next"
-  str_prev: "Prev"
-  str_continue_reading: "Continue reading"
+  str_follow_on: "Volg me op"
+  str_rss_follow: "Volg mijn RSS feed"
+  str_email: "E-mail"
+  str_next: "Volgende"
+  str_prev: "Vorige"
+  str_continue_reading: "Lees meer"
 
   # Colours, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"
   google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
 
   # Post navigation
-  post_navigation: false
+  post_navigation: true
 
 # PAGINATION
 paginate: 5
