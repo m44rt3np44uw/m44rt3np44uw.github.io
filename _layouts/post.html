@@ -6,7 +6,7 @@ layout: default
     <h1 class="title">{{ page.title }}</h1>
     <p class="meta">
     <!--{{ page.date | date: "%B %-d, %Y" }}-->
-    {{ page.date | date: "%-d %B %Y" }}
+    {{ page.date | date: "%-d %B %Y" | replace:"January","Januari" | replace:"Februar","Februari" | replace:"March","Maart" | replace:"May","Mei" | replace:"June","Juni" | replace:"July","Juli" | replace:"Agust","Augustus"  | replace:"October","Oktober" }}
     {% if page.author %} - {{ page.author }}{% endif %}
     </p>
   </header>

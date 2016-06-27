@@ -5,34 +5,36 @@ url: "http://blog.maartenpaauw.com/" # the base hostname & protocol for your sit
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: Maarten's blog
-  gravatar: c32c1a3574c36662aee8a65da32ca8ee
+  title: "'s blog"
+  title_tag: "Maarten's blog"
+  gravatar: "c32c1a3574c36662aee8a65da32ca8ee"
   description: "Blog van Maarten Paauw" # used by search engines
 
   # Header and footer text
   header_text: >
      <h3>Hallo, ik ben Maarten.</h3>
   header_text_feature_image:
-#  header_text_feature_image: img/2016-06-27-test.jpg
   footer_text: >
-   Aangedreven door <a href="http://jekyllrb.com">Jekyll</a> met <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
+    geschreven met <i class="fa fa-heart orange" aria-hidden="true"></i> door Maarten
+#   Aangedreven door <a href="http://jekyllrb.com">Jekyll</a><br/>
+#   met <a href="https://rohanchandra.github.io/project/type/">Type Theme</a> als thema.
 
   # Icons
   rss: false
-  email_address: maartenpaauw@gmail.com # Full email address, e.g. "sam@example.com"
+  email_address: "maartenpaauw@gmail.com"
   behance:
-  bitbucket: m44rt3np44uw
+  bitbucket: "m44rt3np44uw"
   dribbble:
   facebook:
   flickr:
-  github: m44rt3np44uw
+  github: "m44rt3np44uw"
   google_plus:
   instagram:
-  linkedin: https://nl.linkedin.com/in/m44rt3np44uw # Full URL
+  linkedin: "https://nl.linkedin.com/in/m44rt3np44uw"
   pinterest:
   reddit:
   soundcloud:
-  stack_exchange: http://stackexchange.com/users/1794576/m44rt3np44uw # Full URL
+  stack_exchange: "http://stackexchange.com/users/1794576/m44rt3np44uw"
   steam:
   tumblr:
   twitter:
@@ -40,9 +42,9 @@ theme:
   youtube:
 
   # Scripts
-  google_analytics: UA-40230993-7 # Tracking ID, e.g. "UA-000000-01"
-  disqus_shortname: maartenpaauw
-  katex: true # Enable if using math markup
+  google_analytics: "UA-40230993-7"
+  disqus_shortname: "maartenpaauw"
+  katex: true
 
   # Localization strings
   str_follow_on: "Volg me op"
@@ -64,9 +66,9 @@ paginate: 5
 paginate_path: "blog/page:num"
 
 # BUILD SETTINGS
-markdown: kramdown
-highlighter: rouge
+markdown: "kramdown"
+highlighter: "rouge"
 sass:
-  sass_dir: _sass
-  style: :compressed
+  sass_dir: "_sass"
+  style: ":compressed"
 gems: [jekyll-paginate]
