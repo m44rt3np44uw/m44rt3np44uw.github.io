@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Jekyll driver voor Laravel Valet
-date: ma 27 jun 2016 16:53:13 CEST
+date: '2016-06-27 17:52:13 +0100'
+published: true
 ---
 
 Helaas is er nog geen officiële Jekyll driver voor Laravel Valet maar dat kan met het volgende commando eenvoudig worden opgelost:
