@@ -5,7 +5,7 @@ date: 2016-06-27T17:30:00.000Z
 published: true
 ---
 
-Helaas is er nog geen officiële Jekyll driver voor Laravel Valet maar dat kan met het volgende commando eenvoudig worden opgelost:
+Helaas is er nog geen officiële Jekyll driver voor Laravel Valet maar dat kan met de volgende commando's eenvoudig worden opgelost:
 
 ```shell
 cd ~/.valet/Drivers/
