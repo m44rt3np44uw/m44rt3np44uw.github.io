@@ -8,14 +8,14 @@ theme:
   title: "'s blog"
   title_tag: "Maarten's blog"
   gravatar: "c32c1a3574c36662aee8a65da32ca8ee"
-  description: "Blog van Maarten Paauw" # used by search engines
+  description: "Maarten Paauw's Blog" # used by search engines
 
   # Header and footer text
   header_text: >
-     <h3>Hallo, ik ben Maarten.</h3>
+     <h3>Hello, I'm Maarten.</h3>
   header_text_feature_image:
   footer_text: >
-    geschreven met <i class="fa fa-heart orange" aria-hidden="true"></i> door Maarten
+    written with <i class="fa fa-heart orange" aria-hidden="true"></i> by Maarten
 #   Aangedreven door <a href="http://jekyllrb.com">Jekyll</a><br/>
 #   met <a href="https://rohanchandra.github.io/project/type/">Type Theme</a> als thema.
 
@@ -47,12 +47,12 @@ theme:
   katex: true
 
   # Localization strings
-  str_follow_on: "Volg me op"
-  str_rss_follow: "Volg mijn RSS feed"
-  str_email: "E-mail"
-  str_next: "Volgende"
-  str_prev: "Vorige"
-  str_continue_reading: "Lees meer"
+  str_follow_on: "Follow on"
+  str_rss_follow: "Follow RSS feed"
+  str_email: "Email"
+  str_next: "Next"
+  str_prev: "Previous"
+  str_continue_reading: "Continue reading"
 
   # Colours, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"
