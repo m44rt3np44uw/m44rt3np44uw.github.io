@@ -15,3 +15,5 @@ Today I found out you can give a FTP connection (via site manager) a background 
 | Red    | Production  |
 | Yellow | Staging     |
 | Green  | Local       |
+
+![2016-08-07-colors-in-filezilla-2](/img/2016-08-07-colors-in-filezilla-2.png)
