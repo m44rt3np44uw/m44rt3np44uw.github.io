@@ -44,7 +44,8 @@ theme_settings:
   # Scripts
   google_analytics: "UA-40230993-7"
   disqus_shortname: "maartenpaauw"
-  katex: true
+  muut_community_name: # From muut.com settings, e.g. "muttcommunityname"
+  katex: true # Enable if using math markup
 
   # Localization strings
   str_follow_on: "Follow on"
