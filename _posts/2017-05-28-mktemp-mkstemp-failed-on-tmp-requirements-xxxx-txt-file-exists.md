@@ -1,6 +1,7 @@
 ---
 layout: post
 title: mktemp&#58; mkstemp failed on /tmp/requirements.XXXX.txt&#58; File exists
+tags: ['Brew', 'Python', 'pyenv']
 published: true
 ---
 

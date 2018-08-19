@@ -15,9 +15,7 @@ theme_settings:
      <h3>Hello, I'm Maarten.</h3>
   header_text_feature_image:
   footer_text: >
-    written with <i class="fa fa-heart orange" aria-hidden="true"></i> by Maarten
-#   Aangedreven door <a href="http://jekyllrb.com">Jekyll</a><br/>
-#   met <a href="https://rohanchandra.github.io/project/type/">Type Theme</a> als thema.
+    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/rohanchandra/type-theme">Type Theme</a>
 
   # Icons
   rss: false
@@ -27,6 +25,7 @@ theme_settings:
   dribbble:
   facebook:
   flickr:
+  gitlab:
   github: "maartenpaauw"
   google_plus:
   instagram:
@@ -44,16 +43,20 @@ theme_settings:
   # Scripts
   google_analytics: "UA-40230993-7"
   disqus_shortname: "maartenpaauw"
-  muut_community_name: # From muut.com settings, e.g. "muttcommunityname"
   katex: true # Enable if using math markup
+  search: false # Enable the search feature
 
   # Localization strings
   str_follow_on: "Follow on"
   str_rss_follow: "Follow RSS feed"
   str_email: "Email"
-  str_next: "Next"
-  str_prev: "Previous"
+  str_next_post: "Next post"
+  str_previous_post: "Previous post"
+  str_next_page: "Next"
+  str_previous_page: "Prev"
   str_continue_reading: "Continue reading"
+  str_javascript_required_disqus: "Please enable JavaScript to view comments."
+  str_search_no_results: "No results found."
 
   # Colours, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"
@@ -70,6 +73,10 @@ paginate_path: "blog/page:num"
 markdown: "kramdown"
 highlighter: "rouge"
 sass:
-  sass_dir: "_sass"
-  style: ":compressed"
-gems: [jekyll-paginate, jekyll-sitemap]
+  sass_dir: _sass
+  style: :compressed
+plugins: [jekyll-paginate, jekyll-sitemap]
+theme: jekyll-theme-type
+exclude:
+  - Gemfile
+  - Gemfile.lock

@@ -2,6 +2,7 @@
 layout: post
 title: Jekyll driver voor Laravel Valet
 date: 2016-06-27T17:30:00.000Z
+tags: ['Laravel']
 published: true
 ---
 

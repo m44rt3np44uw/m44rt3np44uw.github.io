@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Warning&#58; Skipping mariadb&#58; most recent version 10.1.14 not installed
+tags: ['Brew']
 published: true
 ---
 

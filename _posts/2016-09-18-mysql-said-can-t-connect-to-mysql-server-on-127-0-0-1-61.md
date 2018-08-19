@@ -1,6 +1,7 @@
 ---
 layout: post
 title: MySQL said&#58; Can&#39;t connect to MySQL server on &#39;127.0.0.1&#39; &#40;61&#41;
+tags: ['Brew']
 published: true
 ---
 

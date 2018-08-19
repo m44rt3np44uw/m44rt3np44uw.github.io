@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Skipping&#58; fdupes&#58; most recent version 1.6.1 not installed
+tags: ['Brew']
+published: true
 ---
 
 It's possible you will receive this warning when trying to update all of your Brew packages.

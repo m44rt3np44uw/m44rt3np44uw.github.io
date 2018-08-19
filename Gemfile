@@ -1,6 +1,4 @@
 source "https://rubygems.org"
-gem 'rouge'
-gem 'jekyll'
-gem 'jekyll-paginate'
-gem 'jekyll-compose', group: [:jekyll_plugins]
 gem 'jekyll-sitemap'
+gem 'jekyll-compose', group: [:jekyll_plugins]
+gemspec
